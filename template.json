@@ -1,0 +1,65 @@
+{"location":true,"emails":["cvbuskirk@gmail.com"],"app_version":1,"isShowingReport":true,"created_date":653595033.23045802,"icon":0,"isAllowingPrinting":true,"category":["Quality Control Audit"],"isAllowingExporting":true,"isAllowingSharing":false,"version":"1.0","serverRequests":[{"id":"B3062B52-D72E-4C53-B76E-20F61C62DF32","body":"","headers":[],"parameters":[{"value":"passing","key":"test","label":"","identifier":"F3659C19-C1D2-4486-8A3D-6C27150F154E","ask":false}],"authType":"none","contentType":"application\/json","url":"httpbin.org\/post?test=passing","password":"","token":"","requestType":"completion","username":"","responseType":"passing","protocolType":"https:\/\/","name":"Passing Request","method":"POST"},{"id":"0DD1900D-7687-45E6-967C-FF84BF625312","body":"","headers":[],"parameters":[{"value":"failing","key":"test","label":"","identifier":"ABBB8A24-7779-4F1D-947B-FC7CABC4B1CE","ask":false}],"authType":"none","contentType":"application\/json","url":"httpbin.org\/post?test=failing","password":"","token":"","requestType":"completion","username":"","responseType":"failing","protocolType":"https:\/\/","name":"Failing Request","method":"POST"}],"name":"All Question Types",
+    "questions":[
+        {
+            "type": "Section",
+            "question":"First Section",
+            "indent":1,
+            "id":"36e76a2b-98b7-48f3-ad4c-61fadb84b2e3"
+        
+        },
+        {
+            "urls":["Audit Plus https://auditplusapp.com", "Corkulous https://corkulous.com"],
+            "is_not_available_enabled":true,"min":-1000,"id":"3CA81223-B1BE-48D3-94DD-8171285395C6","numerical_units":11,"is_scan_available":true,"question":"Number entry question type.","type":"Number","description":"The number question type is for numbers exclusively.  The template creator can select units when preparing the question.  There are also min and max fields and the answer will fail if not in range.  The user can bypass the question by using the N\/A button below.  Finally, the answer can be scanned in.","max":1000,"custom_numerical_units":""
+            
+        },
+        {
+            "urls":"auditplusapp.com", "type":"Text","id":"A2BD9E54-D3FF-45C5-9021-7C569E66AA25","description":"The text question type can include a N\/A button below for by pass.  The user may also scan a barcode to insert the answer.  There is a calendar button below to insert differing forms of times and dates.","is_not_available_enabled":true,"is_scan_available":true,"question":"Text entry question type."
+            
+        },
+        {
+            "description":"The most widely used question type in audits and checklists today, is the Yes\/No\/N\/A question type.  No is the failing answer.","id":"5E4361D4-407D-4265-B083-62CF85D1B45D","is_not_available_enabled":true,"question":"Yes \/ No Question Type","type":"Yes \/ No Question"
+            
+        },
+        {
+            "description":"This offers another choice based type.  By selecting NOK the answer will fail.","id":"7C1BC60C-E93C-49F4-93E0-ED5C2FA9105B","is_not_available_enabled":true,"question":"OK \/ NOK Question Type","type":"OK \/ NOK"
+            
+        },
+        {
+            "type": "Section",
+            "question":"Second Section",
+            "indent":2,
+            "id":"36e76a2b-98b7-48f3-ad4c-61fadb84b2e4"
+        
+        },
+        {
+            "high_label":"Good","is_not_available_enabled":true,"id":"7C2C75E5-E6CC-40D9-9969-743D66956CCC","low_label":"Bad","question":"Ratings question type","description":"This question type applies a rating with high\/low labels of your choosing.  Selecting one star is failing.  The user may bypass the ratings question by selecting N\/A.","type":"Ratings"
+            
+        },
+        {
+            "is_not_available_enabled":true,"min":-1000,"id":"989D164B-E3DC-4F4A-A437-692096ECF0AB","question":"Slider question type","description":"The user may select a answer by using a slider.  The range is applied with min\/max values.  The increment value is the step of the slider.","max":1000,"type":"Slider","increment":100
+            
+        },
+        {
+            "description":"Location is also available in the audit details.  However, you can create a question type as well.  The user can type the location and coordinates will be added or use the map button below to reverse geocode your location.  The user may bypass the question with the N\/A button.","id":"EF657002-DB6D-400C-8148-B0CC3DD5E574","question":"Location based question type.","is_scan_available":true,"type":"Location"
+            
+        },
+        {
+            "id":"1D08DB1D-FDEE-402C-A221-AEF1402ADB7E","question":"Media Question Type","type":"Media","description":"The media button below will ask the user to select media from their photo library, camera, scan document, files app and our own built in sketch.  Adding one media item will answer the question."},{"id":"56A078FE-9FF9-451D-BF83-2D43C5CB4FD3","question":"Signature Question Type","type":"Signature","description":"The signature button below will launch the signature entry screen.  The user simply has to sign and dismiss the screen and the signature will be applied to the question."
+                
+        }
+    ],
+    "id":"7046D1C1-48ED-49B2-BB1F-F4861B97F678",
+    "properties":[
+        {
+            "id":"F46ED2EF-9E0C-4094-8E08-D9DA2B78C450","default":"This is a property","isReadOnly":true,"name":"Property","type":"text", "required":true,"isScanAvailable":true
+            
+        },
+        {
+            "name":"Color", "type":"Color", "valueChoices":["red","green","blue","yellow","orange"], "default":["red", "green"],"multiSelect":true, "includeInFileName":true
+            
+        }
+    ],
+    "isShowingLog":true,
+    "template_type":0,
+    "created_by":"Audit Plus",
+    "description":"This sample is prepared to help you understand each question type in Audit Plus."}
