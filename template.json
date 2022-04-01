@@ -17,11 +17,11 @@
             
         },
         {
-            "description":"The most widely used question type in audits and checklists today, is the Yes\/No\/N\/A question type.  No is the failing answer.","id":"5E4361D4-407D-4265-B083-62CF85D1B45D","is_not_available_enabled":true,"question":"Yes \/ No Question Type","type":"Yes \/ No Question"
+            "description":"The most widely used question type in audits and checklists today, is the Yes\/No\/N\/A question type.  No is the failing answer.","id":"5E4361D4-407D-4265-B083-62CF85D1B45D","is_not_available_enabled":true,"question":"Yes \/ No Question Type","type":"Yes \/ No Question", "assets":["https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/testImage.jpg", "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/testPDF.pdf"]
             
         },
         {
-            "description":"This offers another choice based type.  By selecting NOK the answer will fail.","id":"7C1BC60C-E93C-49F4-93E0-ED5C2FA9105B","is_not_available_enabled":true,"question":"OK \/ NOK Question Type","type":"OK \/ NOK"
+            "description":"This offers another choice based type.  By selecting NOK the answer will fail.","id":"7C1BC60C-E93C-49F4-93E0-ED5C2FA9105B","is_not_available_enabled":true,"question":"OK \/ NOK Question Type","type":"OK \/ NOK", "assets":"https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/testVideo.mov"
             
         },
         {
