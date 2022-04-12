@@ -8,12 +8,12 @@
         
         },
         {
-            "urls":["Audit Plus https://auditplusapp.com", "Corkulous https://corkulous.com"],
+            "urls":[{"name":"Audit Plus", "url":"https://auditplusapp.com"}, {"name":"Corkulous","url": "https://corkulous.com"}],
             "is_not_available_enabled":true,"min":-1000,"id":"3CA81223-B1BE-48D3-94DD-8171285395C6","numerical_units":11,"is_scan_available":true,"question":"Number entry question type.","type":"Number","description":"The number question type is for numbers exclusively.  The template creator can select units when preparing the question.  There are also min and max fields and the answer will fail if not in range.  The user can bypass the question by using the N\/A button below.  Finally, the answer can be scanned in.","max":1000,"custom_numerical_units":""
             
         },
         {
-            "urls":"auditplusapp.com", "type":"Text","id":"A2BD9E54-D3FF-45C5-9021-7C569E66AA25","description":"The text question type can include a N\/A button below for by pass.  The user may also scan a barcode to insert the answer.  There is a calendar button below to insert differing forms of times and dates.","is_not_available_enabled":true,"is_scan_available":true,"question":"Text entry question type."
+            "urls":{"url":"auditplusapp.com"}, "type":"Text","id":"A2BD9E54-D3FF-45C5-9021-7C569E66AA25","description":"The text question type can include a N\/A button below for by pass.  The user may also scan a barcode to insert the answer.  There is a calendar button below to insert differing forms of times and dates.","is_not_available_enabled":true,"is_scan_available":true,"question":"Text entry question type."
             
         },
         {
