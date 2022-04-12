@@ -13,7 +13,7 @@
             
         },
         {
-            "urls":{"url":"auditplusapp.com"}, "type":"Text","id":"A2BD9E54-D3FF-45C5-9021-7C569E66AA25","description":"The text question type can include a N\/A button below for by pass.  The user may also scan a barcode to insert the answer.  There is a calendar button below to insert differing forms of times and dates.","is_not_available_enabled":true,"is_scan_available":true,"question":"Text entry question type."
+            "urls":{"name":"Audit +", "url":"auditplusapp.com"}, "type":"Text","id":"A2BD9E54-D3FF-45C5-9021-7C569E66AA25","description":"The text question type can include a N\/A button below for by pass.  The user may also scan a barcode to insert the answer.  There is a calendar button below to insert differing forms of times and dates.","is_not_available_enabled":true,"is_scan_available":true,"question":"Text entry question type."
             
         },
         {
