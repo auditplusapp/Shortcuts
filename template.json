@@ -36,7 +36,7 @@
             
         },
         {
-            "is_not_available_enabled":true,"min":-1000,"id":"989D164B-E3DC-4F4A-A437-692096ECF0AB","question":"Slider question type","description":"The user may select a answer by using a slider.  The range is applied with min\/max values.  The increment value is the step of the slider.","max":1000,"type":"Slider","increment":100
+            "is_not_available_enabled":true,"min":-500,"id":"989D164B-E3DC-4F4A-A437-692096ECF0AB","question":"Slider question type","description":"The user may select a answer by using a slider.  The range is applied with min\/max values.  The increment value is the step of the slider.","max":500,"type":"Slider","increment":100, "sliderMin":-1000, "sliderMax":1000
             
         },
         {
