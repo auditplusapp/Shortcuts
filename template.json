@@ -131,7 +131,6 @@
                 "Compliant",
                 "Not Compliant"
             ],
-            "identifier" : "3C3B8250-A5BC-4D0D-B068-29490B3E1767",
             "name" : "Compliance",
             "failing_answer" : "Not Compliant"
         },
@@ -173,18 +172,15 @@
         "multiple_choice_answers" : [
             {
                 "compliant" : true,
-                "text" : "One",
-                "identifier" : "0E17B413-674B-4944-BC2E-D36113C2F101"
+                "text" : "One"
             },
             {
                 "compliant" : true,
-                "text" : "Two",
-                "identifier" : "75A8A021-EFBB-45B2-BF65-8A63E7B84079"
+                "text" : "Two"
             },
             {
                 "compliant" : true,
-                "text" : "Three",
-                "identifier" : "6F22D4B6-71C7-4230-ADF3-76151D264EA6"
+                "text" : "Three"
             }
         ],
         "multi_select_enabled" : true,
@@ -268,8 +264,7 @@
             "answers" : [
               "Internal",
               "External"
-            ],
-            "identifier" : "1FA9A8B0-0380-4E83-AACC-AFA010673D1F"
+            ]
       },
       "required" : false,
       "identifier" : "393E404D-A1B5-4D6F-95B6-9F3BF4B02787"
