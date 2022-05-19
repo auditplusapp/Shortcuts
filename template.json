@@ -42,7 +42,6 @@
         "type" : "Number",
         "name" : "Number Entry Question Type",
         "description" : "The number question type is for numbers exclusively.  The template creator can select units when preparing the question.  There are also min and max fields, and the answer will fail if not in range.  The user can bypass the question using the N\/A button below.  Finally, the answer can be scanned in.",
-        "custom_units" : "",
         "assets" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Excel%20Sample.xls"
         ],
@@ -57,7 +56,7 @@
         "compliance_max" : 1000,
         "identifier" : "3CA81223-B1BE-48D3-94DD-8171285395C6",
         "include_na" : true,
-        "numerical_units" : 3
+        "units" : "cm"
     },
     {
         "type" : "Location",
