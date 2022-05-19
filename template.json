@@ -1,65 +1,278 @@
-{"location":true,"emails":["cvbuskirk@gmail.com"],"app_version":1,"isShowingReport":true,"created_date":653595033.23045802,"icon":0,"isAllowingPrinting":true,"category":["Quality Control Audit"],"isAllowingExporting":true,"isAllowingSharing":false,"version":"1.0","serverRequests":[{"id":"B3062B52-D72E-4C53-B76E-20F61C62DF32","body":"","headers":[],"parameters":[{"value":"passing","key":"test","label":"","identifier":"F3659C19-C1D2-4486-8A3D-6C27150F154E","ask":false}],"authType":"none","contentType":"application\/json","url":"httpbin.org\/post?test=passing","password":"","token":"","requestType":"completion","username":"","responseType":"passing","protocolType":"https:\/\/","name":"Passing Request","method":"POST"},{"id":"0DD1900D-7687-45E6-967C-FF84BF625312","body":"","headers":[],"parameters":[{"value":"failing","key":"test","label":"","identifier":"ABBB8A24-7779-4F1D-947B-FC7CABC4B1CE","ask":false}],"authType":"none","contentType":"application\/json","url":"httpbin.org\/post?test=failing","password":"","token":"","requestType":"completion","username":"","responseType":"failing","protocolType":"https:\/\/","name":"Failing Request","method":"POST"}],"name":"All Question Types",
-    "questions":[
-        {
-            "type": "Section",
-            "question":"First Section",
-            "indent":1,
-            "id":"36e76a2b-98b7-48f3-ad4c-61fadb84b2e3"
-        
-        },
-        {
-            "urls":[{"name":"Audit Plus", "url":"https://auditplusapp.com"}, {"name":"Corkulous","url": "https://corkulous.com"}],
-            "is_not_available_enabled":true,"min":-1000,"id":"3CA81223-B1BE-48D3-94DD-8171285395C6","numerical_units":11,"is_scan_available":true,"question":"Number entry question type.","type":"Number","description":"The number question type is for numbers exclusively.  The template creator can select units when preparing the question.  There are also min and max fields and the answer will fail if not in range.  The user can bypass the question by using the N\/A button below.  Finally, the answer can be scanned in.","max":1000,"custom_numerical_units":""
-            
-        },
-        {
-            "urls":{"name":"Audit +", "url":"auditplusapp.com"}, "type":"Text","id":"A2BD9E54-D3FF-45C5-9021-7C569E66AA25","description":"The text question type can include a N\/A button below for by pass.  The user may also scan a barcode to insert the answer.  There is a calendar button below to insert differing forms of times and dates.","is_not_available_enabled":true,"is_scan_available":true,"question":"Text entry question type."
-            
-        },
-        {
-            "description":"The most widely used question type in audits and checklists today, is the Yes\/No\/N\/A question type.  No is the failing answer.","id":"5E4361D4-407D-4265-B083-62CF85D1B45D","is_not_available_enabled":true,"question":"Yes \/ No Question Type","type":"Yes \/ No Question", "assets":["https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/testImage.jpg", "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/testPDF.pdf"]
-            
-        },
-        {
-            "description":"This offers another choice based type.  By selecting NOK the answer will fail.","id":"7C1BC60C-E93C-49F4-93E0-ED5C2FA9105B","is_not_available_enabled":true,"question":"OK \/ NOK Question Type","type":"OK \/ NOK", "assets":"https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/testVideo.mov"
-            
-        },
-        {
-            "type": "Section",
-            "question":"Second Section",
-            "indent":2,
-            "id":"36e76a2b-98b7-48f3-ad4c-61fadb84b2e4"
-        
-        },
-        {
-            "high_label":"Good","is_not_available_enabled":true,"id":"7C2C75E5-E6CC-40D9-9969-743D66956CCC","low_label":"Bad","question":"Ratings question type","description":"This question type applies a rating with high\/low labels of your choosing.  Selecting one star is failing.  The user may bypass the ratings question by selecting N\/A.","type":"Ratings"
-            
-        },
-        {
-            "is_not_available_enabled":true,"min":-500,"id":"989D164B-E3DC-4F4A-A437-692096ECF0AB","question":"Slider question type","description":"The user may select a answer by using a slider.  The range is applied with min\/max values.  The increment value is the step of the slider.","max":500,"type":"Slider","increment":100, "sliderMin":-1000, "sliderMax":1000
-            
-        },
-        {
-            "description":"Location is also available in the audit details.  However, you can create a question type as well.  The user can type the location and coordinates will be added or use the map button below to reverse geocode your location.  The user may bypass the question with the N\/A button.","id":"EF657002-DB6D-400C-8148-B0CC3DD5E574","question":"Location based question type.","is_scan_available":true,"type":"Location"
-            
-        },
-        {
-            "id":"1D08DB1D-FDEE-402C-A221-AEF1402ADB7E","question":"Media Question Type","type":"Media","description":"The media button below will ask the user to select media from their photo library, camera, scan document, files app and our own built in sketch.  Adding one media item will answer the question."},{"id":"56A078FE-9FF9-451D-BF83-2D43C5CB4FD3","question":"Signature Question Type","type":"Signature","description":"The signature button below will launch the signature entry screen.  The user simply has to sign and dismiss the screen and the signature will be applied to the question."
-                
-        }
+{
+    "name" : "All Question Types",
+    "description" : "This sample is prepared to help you understand each question type in Audit Plus.  Each sample question contains a URL to its documentation.  There is also a sample file attached to each question to demonstrate the various file types that may be included for work instructions.  We have also added a few samples of properties.",
+    "categories" : [
+        "Audit Plus",
+        "Samples"
     ],
-    "id":"7046D1C1-48ED-49B2-BB1F-F4861B97F678",
-    "properties":[
-        {
-            "id":"F46ED2EF-9E0C-4094-8E08-D9DA2B78C450","default":"This is a property","isReadOnly":true,"name":"Property","type":"text", "required":true,"isScanAvailable":true
-            
+    "allow_printing" : true,
+    "version" : "1.0",
+    "allow_exporting" : true,
+    "allow_question_sharing" : true,
+    "ask_for_location" : true,
+    "identifier" : "0FFE3E08-03BA-4349-A188-AE109D85B785",
+    
+    "questions" : [
+    {
+        "name" : "Text-Based Question Types",
+        "type" : "Section",
+        "indent" : 1,
+        "identifier" : "4C022848-A6B7-40BD-A515-FC93E827A174"
+    },
+    {
+        "type" : "Text",
+        "name" : "Text Entry Question Type",
+        "urls" : [
+            {
+              "url" : "https:\/\/auditplusapp.com\/626\/Text%20Type",
+              "name" : "Text Type"
+            }
+          ],
+        "assets" : [
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Word%20Document.doc"
+          ],
+        "include_na" : true,
+        "allow_scan" : true,
+        "identifier" : "A2BD9E54-D3FF-45C5-9021-7C569E66AA25",
+          
+        "description" : "The text question type can include a N\/A button below for bypass.  The user may also scan a barcode to insert the answer.  There is a calendar button below to insert differing forms of times and dates."
+          
+    },
+    {
+        "type" : "Number",
+        "name" : "Number Entry Question Type",
+        "description" : "The number question type is for numbers exclusively.  The template creator can select units when preparing the question.  There are also min and max fields, and the answer will fail if not in range.  The user can bypass the question using the N\/A button below.  Finally, the answer can be scanned in.",
+        "custom_units" : "",
+        "assets" : [
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Excel%20Sample.xls"
+        ],
+        "compliance_min" : -1000,
+        "urls" : [
+            {
+                "url" : "https:\/\/auditplusapp.com\/631\/Number%20Type",
+                "name" : "Number Type"
+            }
+        ],
+        "allow_scan" : true,
+        "compliance_max" : 1000,
+        "identifier" : "3CA81223-B1BE-48D3-94DD-8171285395C6",
+        "include_na" : true,
+        "numerical_units" : 3
+    },
+    {
+        "type" : "Location",
+        "name" : "Location-Based Question Type",
+        "urls" : [
+            {
+                "url" : "https:\/\/auditplusapp.com\/634\/Location%20Type",
+                "name" : "Location Type"
+            }
+        ],
+        "assets" : [
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Earth.mov"
+        ],
+        "allow_scan" : true,
+        "identifier" : "EF657002-DB6D-400C-8148-B0CC3DD5E574",
+      
+        "description" : "Location is available in the audit details.  However, you can create a location-type question as well.  The user can type the location and coordinates will be added, or they may use the map button below to reverse geocode their location.  The user may bypass the question with the N\/A button."
+    },
+    {
+        "type" : "Section",
+        "name" : "Choice-Based Question Types",
+        "indent" : 1,
+        "identifier" : "317BE5F0-F77B-4A88-B602-6FBEBFEB96CF"
+    },
+    {
+        "type" : "Yes \/ No Question",
+        "name" : "Yes \/ No Question Type",
+        "urls" : [
+            {
+                "url" : "https:\/\/auditplusapp.com\/628\/Yes%20\/%20No%20Type",
+                "name" : "Yes \/ No Type"
+            }
+        ],
+        "assets" : [
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/PDF%20Document.pdf"
+        ],
+        "include_na" : true,
+        "identifier" : "5E4361D4-407D-4265-B083-62CF85D1B45D",
+        "description" : "The most widely used question type in audits and checklists today is the Yes\/No question type.  The question fails when answering no."
+    },
+    {
+        "type" : "OK \/ NOK",
+        "name" : "OK \/ NOK Question Type",
+        "urls" : [
+            {
+                "url" : "https:\/\/auditplusapp.com\/629\/OK%20\/%20NOK%20Type",
+                "name" : "OK \/ NOK Type"
+            }
+        ],
+        "assets" : [
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Power%20Point.ppt"
+        ],
+        "include_na" : true,
+        "identifier" : "7C1BC60C-E93C-49F4-93E0-ED5C2FA9105B",
+        "description" : "The industry will often use OK \/ NOK as an alternative to Yes \/ No. The question fails when selecting NOK."
+    },
+    {
+        "type" : "Custom Type",
+        "name" : "Custom Question Type",
+        "urls" : [
+            {
+                "url" : "https:\/\/auditplusapp.com\/662\/Custom%20Type",
+                "name" : "Custom Type"
+            }
+        ],
+        "assets" : [
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Image%20Document.jpg"
+        ],
+        "custom_type" : {
+            "answers" : [
+                "Compliant",
+                "Not Compliant"
+            ],
+            "identifier" : "3C3B8250-A5BC-4D0D-B068-29490B3E1767",
+            "name" : "Compliance",
+            "failing_answer" : "Not Compliant"
         },
-        {
-            "name":"Color", "type":"Color", "valueChoices":["red","green","blue","yellow","orange"], "default":["red", "green"],"multiSelect":true, "includeInFileName":true
-            
-        }
-    ],
-    "isShowingLog":true,
-    "template_type":0,
-    "created_by":"Audit Plus",
-    "description":"This sample is prepared to help you understand each question type in Audit Plus."}
+          "include_na" : true,
+          "identifier" : "DE3FFE32-DB2B-44A7-9408-2FFC9B444588",
+          "description" : "We provide a default custom question type for you.  You can add as many custom question types as you’d like using the menu in the question editor or via the app’s settings in the file browser.  Tap the URL below to learn more. "
+    },
+    {
+        "type" : "Ratings",
+        "name" : "Ratings Question Type",
+        "urls" : [
+            {
+                "url" : "https:\/\/auditplusapp.com\/632\/Ratings%20Type",
+                "name" : "Ratings Type"
+            }
+        ],
+        "assets" : [
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Pages%20Sample.pages"
+        ],
+        "include_na" : true,
+        "high_label" : "Good",
+        "low_label" : "Bad",
+        "identifier" : "7C2C75E5-E6CC-40D9-9969-743D66956CCC",
+        "description" : "This question type applies a rating with high\/low labels of your choosing.  Selecting one star is failing.  The user may bypass the ratings question by selecting N\/A."
+    },
+    {
+        "type" : "Multiple Choice",
+        "name" : "Multiple Choice  Question Type",
+        "urls" : [
+            {
+                "url" : "https:\/\/auditplusapp.com\/637\/Multiple%20Choice%20Type",
+                "name" : "Multiple Choice Type"
+            }
+        ],
+        "assets" : [
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Live%20Photo%20Document.jpeg"
+        ],
+        "include_na" : true,
+        "multiple_choice_answers" : [
+            {
+                "compliant" : true,
+                "text" : "One",
+                "identifier" : "0E17B413-674B-4944-BC2E-D36113C2F101"
+            },
+            {
+                "compliant" : true,
+                "text" : "Two",
+                "identifier" : "75A8A021-EFBB-45B2-BF65-8A63E7B84079"
+            },
+            {
+                "compliant" : true,
+                "text" : "Three",
+                "identifier" : "6F22D4B6-71C7-4230-ADF3-76151D264EA6"
+            }
+        ],
+        "multi_select_enabled" : true,
+        "identifier" : "8CF8B495-EA35-4E5A-9393-676F45EE8F01",
+        "description" : "The following question allows for single and multiple answers to a question.  Its primary use may be for tests, but it’s available for audits as well.  Select the answers that pass the question.  Tick the multiple selection enabled switch to allow more than one answer.",
+      
+    },
+    {
+        "type" : "Slider",
+        "name" : "Slider Question Type",
+        "description" : "The user may select an answer using a slider.  The range of the slider is determined by the slider min\/max values.  The increment value is the step of the slider. Values outside the compliance min\/max range are failing. ",
+        "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Numbers%20Document.numbers"
+        ],
+        "compliance_min" : -500,
+        "increment" : 100,
+        "slider_max" : 1000,
+
+        "urls" : [
+            {
+              "url" : "https:\/\/auditplusapp.com\/633\/Slider%20Type",
+              "name" : "Slider Type"
+            }
+        ],
+        "compliance_max" : 500,
+        "identifier" : "989D164B-E3DC-4F4A-A437-692096ECF0AB",
+        "slider_min" : -1000,
+        "include_na" : true
+    },
+    {
+        "type" : "Section",
+        "name" : "Media Question Types",
+        "increment" : 1,
+        "identifier" : "72A92047-74C7-4112-BE67-DFAF98001880"
+    },
+    {
+        "type" : "Media",
+        "name" : "Media Question Type",
+        "urls" : [
+            {
+              "url" : "https:\/\/auditplusapp.com\/635\/Media%20Type",
+              "name" : "Media Type"
+            }
+        ],
+        "description" : "The media button below asks the user to select media from their photo library, camera, scan document, files app and our own built in sketch.  Adding one media item will answer the question.",
+        "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Keynote%20Document.key"
+        ],
+        "identifier" : "1D08DB1D-FDEE-402C-A221-AEF1402ADB7E"
+    },
+    {
+        "type" : "Signature",
+        "name" : "Signature Question Type",
+        "urls" : [
+            {
+              "url" : "https:\/\/auditplusapp.com\/636\/Signature%20Type",
+              "name" : "Signature Type"
+            }
+        ],
+        "description" : "The signature button below will launch the signature entry screen.  The user simply has to sign and dismiss the screen and the signature will be applied to the question.",
+        "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/Text%20Document.txt"
+        ],
+        "identifier" : "56A078FE-9FF9-451D-BF83-2D43C5CB4FD3"
+    }
+  ],
+
+  "properties" : [
+    {
+        "type" : "Text",
+        "name" : "Company Name",
+        "allow_scan" : true,
+        "required" : false,
+        "identifier" : "6C6A4471-252C-4679-B62C-A75C8E26DA16"
+    },
+    {
+      "type" : "Custom",
+      "name" : "Department Type",
+      "custom_type" : {
+            "name" : "Department Type",
+            "answers" : [
+              "Internal",
+              "External"
+            ],
+            "identifier" : "1FA9A8B0-0380-4E83-AACC-AFA010673D1F"
+      },
+      "required" : false,
+      "identifier" : "393E404D-A1B5-4D6F-95B6-9F3BF4B02787"
+    }
+  ]
+}
