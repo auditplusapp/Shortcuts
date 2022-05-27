@@ -29,7 +29,7 @@
             }
           ],
         "assets" : [
-            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Word%20Document.doc"
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Word%20Document.doc"
           ],
         "include_na" : true,
         "allow_scan" : true,
@@ -43,7 +43,7 @@
         "name" : "Number Entry Question Type",
         "description" : "The number question type is for numbers exclusively.  The template creator can select units when preparing the question.  There are also min and max fields, and the answer will fail if not in range.  The user can bypass the question using the N\/A button below.  Finally, the answer can be scanned in.",
         "assets" : [
-            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Excel%20Sample.xls"
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Excel%20Sample.xls"
         ],
         "compliance_min" : -1000,
         "urls" : [
@@ -68,7 +68,7 @@
             }
         ],
         "assets" : [
-            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Earth%20Video.mov"
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Earth%20Video.mov"
         ],
         "allow_scan" : true,
         "identifier" : "EF657002-DB6D-400C-8148-B0CC3DD5E574",
@@ -91,7 +91,7 @@
             }
         ],
         "assets" : [
-            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/PDF%20Document.pdf"
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/PDF%20Document.pdf"
         ],
         "include_na" : true,
         "identifier" : "5E4361D4-407D-4265-B083-62CF85D1B45D",
@@ -107,7 +107,7 @@
             }
         ],
         "assets" : [
-            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Power%20Point.ppt"
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Power%20Point.ppt"
         ],
         "include_na" : true,
         "identifier" : "7C1BC60C-E93C-49F4-93E0-ED5C2FA9105B",
@@ -123,7 +123,7 @@
             }
         ],
         "assets" : [
-            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Image%20Document.jpg"
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Image%20Document.jpg"
         ],
         "custom_type" : {
             "answers" : [
@@ -147,7 +147,7 @@
             }
         ],
         "assets" : [
-            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Pages%20Sample.pages"
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Pages%20Sample.pages"
         ],
         "include_na" : true,
         "high_label" : "Good",
@@ -165,7 +165,7 @@
             }
         ],
         "assets" : [
-            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Live%20Photo%20Document.jpeg"
+            "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Live%20Photo%20Document.jpeg"
         ],
         "include_na" : true,
         "multiple_choice_answers" : [
@@ -192,7 +192,7 @@
         "name" : "Slider Question Type",
         "description" : "The user may select an answer using a slider.  The range of the slider is determined by the slider min\/max values.  The increment value is the step of the slider. Values outside the compliance min\/max range are failing. ",
         "assets" : [
-          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Numbers%20Document.numbers"
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Numbers%20Document.numbers"
         ],
         "compliance_min" : -500,
         "increment" : 100,
@@ -226,7 +226,7 @@
         ],
         "description" : "The media button below asks the user to select media from their photo library, camera, scan document, files app and our own built in sketch.  Adding one media item will answer the question.",
         "assets" : [
-          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Keynote%20Document.key"
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Keynote%20Document.key"
         ],
         "identifier" : "1D08DB1D-FDEE-402C-A221-AEF1402ADB7E"
     },
@@ -241,7 +241,7 @@
         ],
         "description" : "The signature button below will launch the signature entry screen.  The user simply has to sign and dismiss the screen and the signature will be applied to the question.",
         "assets" : [
-          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/All%20Question%20Types%20Sample/Assets/Text%20Document.txt"
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Text%20Document.txt"
         ],
         "identifier" : "56A078FE-9FF9-451D-BF83-2D43C5CB4FD3"
     }
