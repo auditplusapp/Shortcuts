@@ -1,0 +1,282 @@
+{
+    "name" : "Trivia Quiz",
+    "description" : "Test your knowledge of trivia.",
+    "allow_question_sharing" : true,
+    "allow_printing" : true,
+    "allow_exporting" : true,
+    "version" : "1.0",
+    "type" : "Test",
+    "identifier" : "AE8C23D8-F6E9-431C-A6D9-632AF30D95A7",
+    "questions" : [
+    {
+      "multiple_choice_answers" : [
+        {
+          "compliant" : false,
+          "text" : "Mr. Mom"
+        },
+        {
+            "compliant" : false,
+          "text" : "Toys"
+        },
+        {
+            "compliant" : false,
+          "text" : "Tootsie"
+        },
+        {
+            "compliant" : true,
+          "text" : "Mrs. Doubtfire"
+        }
+      ],
+      "correct_answer" : "Mrs. Doubtfire",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Robin%20Williams.JPG"
+      ],
+      "name" : "In what movie does Robin Williams play the role of a divorced father posing as an elderly British nanny to spend more time with his children?",
+      "identifier" : "162C6E05-FC8B-4D0C-A22F-8C81A28F6D20",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : true,
+          "text" : "Michael Phelps"
+        },
+        {
+            "compliant" : false,
+          "text" : "Larisa Latynina"
+        },
+        {
+            "compliant" : false,
+          "text" : "Usain Bolt"
+        },
+        {
+            "compliant" : false,
+          "text" : "Carl Lewis"
+        }
+      ],
+      "correct_answer" : "Michael Phelps",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Olympian.JPG"
+      ],
+      "name" : "Which Olympian has won the most gold medals?",
+      "identifier" : "226164EA-2FA2-41FD-B408-2CB1BC2630CB",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : false,
+          "text" : "Rent"
+        },
+        {
+            "compliant" : true,
+          "text" : "Les Misérables"
+        },
+        {
+            "compliant" : false,
+          "text" : "The Sound of Music"
+        },
+        {
+            "compliant" : false,
+          "text" : "Ragtime"
+        }
+      ],
+      "correct_answer" : "Les Misérables",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Musical.JPG"
+      ],
+      "name" : "What influential novel, that was later adapted into a musical, features protagonist Jean Valjean who was imprisoned for stealing a piece of bread?",
+      "identifier" : "8FFF73C4-A1B4-4E0F-AD0C-4B987869FAFB",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : false,
+          "text" : "Magnesium"
+        },
+        {
+            "compliant" : false,
+          "text" : "Cobalt"
+        },
+        {
+            "compliant" : false,
+          "text" : "Potassium"
+        },
+        {
+            "compliant" : true,
+          "text" : "Mercury"
+        }
+      ],
+      "correct_answer" : "Mercury",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Metal.JPG"
+      ],
+      "name" : " Which of the following metals is liquid at room temperature?",
+      "identifier" : "57AB7AF4-1653-4819-8C1F-46285551E5B2",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : false,
+          "text" : "Everdell"
+        },
+        {
+            "compliant" : true,
+          "text" : "Dungeons & Dragons"
+        },
+        {
+            "compliant" : false,
+          "text" : "Warhammer"
+        },
+        {
+            "compliant" : false,
+          "text" : "Risk"
+        }
+      ],
+      "correct_answer" : "Dungeons & Dragons",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Game.JPG"
+      ],
+      "name" : "What is the name of the classic fantasy role-playing game, traditionally played as a tabletop game, that is revolved primarily around storytelling?",
+      "identifier" : "D53DD343-5A83-43F1-9E5E-B215A3DAFD6A",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : false,
+          "text" : "SSSR-V7"
+        },
+        {
+            "compliant" : true,
+          "text" : "Hindenburg"
+        },
+        {
+            "compliant" : false,
+          "text" : "Rome"
+        },
+        {
+            "compliant" : false,
+          "text" : "U.S.S. Akron"
+        }
+      ],
+      "correct_answer" : "Hindenburg",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Zepplin.JPG"
+      ],
+      "name" : "Which famous zeppelin airship exploded above Lakehurst, New Jersey and caused the death of 35 people?",
+      "identifier" : "392E03C9-B304-4FB4-901E-CA8B193A6444",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : false,
+          "text" : "Vatican Museums"
+        },
+        {
+            "compliant" : true,
+          "text" : "Louvre Museum"
+        },
+        {
+            "compliant" : false,
+          "text" : "Leonardo Da Vinci Museum"
+        },
+        {
+            "compliant" : false,
+          "text" : "Metropolitan Museum of Art"
+        }
+      ],
+      "correct_answer" : "Louvre Museum",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Mona%20Lisa.JPG"
+      ],
+      "name" : "Where is the Mona Lisa located today?",
+      "identifier" : "CC25B893-7B6D-416B-A517-2ADCBF476A06",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : false,
+          "text" : "Jennifer Lawrence"
+        },
+        {
+            "compliant" : false,
+          "text" : "Meryl Streep"
+        },
+        {
+            "compliant" : true,
+          "text" : "Lady Gaga"
+        },
+        {
+            "compliant" : false,
+          "text" : "Halle Berry"
+        }
+      ],
+      "correct_answer" : "Lady Gaga",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Awards.JPG"
+      ],
+      "name" : "Who is the only woman in history to win an Oscar, Grammy, Golden Globe, Critic's Choice Award , and BAFTA Award all in one year?",
+      "identifier" : "B99171DB-6D7B-498C-B1F8-BE412911307D",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : true,
+          "text" : "Acid"
+        },
+        {
+            "compliant" : false,
+          "text" : "Xenon"
+        },
+        {
+            "compliant" : false,
+          "text" : "Chlorine"
+        },
+        {
+            "compliant" : false,
+          "text" : "Lead"
+        }
+      ],
+      "correct_answer" : "Acid",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/Periodic%20Table.JPG"
+      ],
+      "name" : "Which of the following is not an element found on the periodic table?",
+      "identifier" : "055B2F7E-A347-4A00-866D-7C2397F5CB02",
+      "type" : "Multiple Choice"
+    },
+    {
+      "multiple_choice_answers" : [
+        {
+            "compliant" : false,
+          "text" : "Barack Obama"
+        },
+        {
+            "compliant" : true,
+          "text" : "Abe Lincoln"
+        },
+        {
+            "compliant" : false,
+          "text" : "George H. W. Bush"
+        },
+        {
+            "compliant" : false,
+          "text" : "Donald Trump"
+        }
+      ],
+      "correct_answer" : "Abe Lincoln",
+      "assets" : [
+          "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/President.JPG"
+      ],
+      "name" : "What American president is also in the Wrestling Hall of Fame?",
+      "identifier" : "8AA01D02-A146-4AB9-A3F9-373C4B9411AE",
+      "type" : "Multiple Choice"
+    }
+  ]
+}
