@@ -7,6 +7,7 @@
     ],
     "allow_printing" : true,
     "version" : "1.0",
+    "logo" : "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/audit_logo.png",
     "allow_exporting" : true,
     "allow_question_sharing" : true,
     "ask_for_location" : true,

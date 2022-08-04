@@ -5,6 +5,7 @@
     "allow_printing" : true,
     "allow_exporting" : true,
     "version" : "1.0",
+    "logo" : "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/TestSample/Assets/audit_logo.png",
     "type" : "Test",
     "identifier" : "AE8C23D8-F6E9-431C-A6D9-632AF30D95A7",
     "questions" : [
