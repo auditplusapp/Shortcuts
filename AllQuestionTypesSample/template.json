@@ -11,8 +11,53 @@
     "allow_exporting" : true,
     "allow_question_sharing" : true,
     "ask_for_location" : true,
+    "delete_media" : true,
+    "show_log" : true,
+    "send_pdf_report" : ["person1@mycompanyname.com", "person2@mycompanyname.com"],
     "identifier" : "0FFE3E08-03BA-4349-A188-AE109D85B785",
-    
+    "server_requests" : [{
+            "name" : "Completion Request",
+            "method" : "POST",
+            "run_for" : "COMPLETION",
+            "execute_when" : "PASSING",
+            "url" : "www.example.com",
+            "body" : "This is some body text.",
+            "auth_type" : "BASIC",
+            "protocol_type" : "https://",
+            "content_type" : "text/plain",
+            "username" : "myname",
+            "password" : "qwerty",
+            "parameters" : [
+                    {
+                        "key": "auditid",
+                        "value" : "0FFE3E08-03BA-4349-A188-AE109D85B785"
+                    },
+                    {
+                        "key" : "date",
+                        "label" : "date",
+                        "ask" : true
+                    }
+            ],
+            "headers" : [
+                    {
+                        "key" : "From",
+                        "value" : "user@example.com"
+                    }
+            ],
+            "id" : "39555b3a-a400-442d-9c90-862159a5d4e9",
+        },
+        {
+            "name" : "Issue Request",
+            "method" : "POST",
+            "run_for" : "ISSUE",
+            "include_question" : true,
+            "url" : "www.example.com",
+            "body" : "{\"method\" : \"notifyIssue\"}",
+            "content_type" : "application/json",
+            "id" : "d670a894-653d-4be9-aac6-c4a8d54cf342"
+        }
+        
+    ],
     "questions" : [
     {
         "name" : "Text-Based Question Types",
@@ -29,7 +74,7 @@
               "name" : "Text Type"
             }
           ],
-        "assets" : [
+        "assetsq" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Word%20Document.doc"
           ],
         "include_na" : true,
@@ -43,7 +88,7 @@
         "type" : "Number",
         "name" : "Number Entry Question Type",
         "description" : "The number question type is for numbers exclusively.  The template creator can select units when preparing the question.  There are also min and max fields, and the answer will fail if not in range.  The user can bypass the question using the N\/A button below.  Finally, the answer can be scanned in.",
-        "assets" : [
+        "assetsq" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Excel%20Sample.xls"
         ],
         "compliance_min" : -1000,
@@ -68,7 +113,7 @@
                 "name" : "Location Type"
             }
         ],
-        "assets" : [
+        "assetsq" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Earth%20Video.mov"
         ],
         "allow_scan" : true,
@@ -91,7 +136,7 @@
                 "name" : "Yes \/ No Type"
             }
         ],
-        "assets" : [
+        "assetsq" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/PDF%20Document.pdf"
         ],
         "include_na" : true,
@@ -107,7 +152,7 @@
                 "name" : "OK \/ NOK Type"
             }
         ],
-        "assets" : [
+        "assetsq" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Power%20Point.ppt"
         ],
         "include_na" : true,
@@ -123,7 +168,7 @@
                 "name" : "Custom Type"
             }
         ],
-        "assets" : [
+        "assetsq" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Image%20Document.jpg"
         ],
         "custom_type" : {
@@ -147,7 +192,7 @@
                 "name" : "Ratings Type"
             }
         ],
-        "assets" : [
+        "assetsq" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Pages%20Sample.pages"
         ],
         "include_na" : true,
@@ -165,7 +210,7 @@
                 "name" : "Multiple Choice Type"
             }
         ],
-        "assets" : [
+        "assetsq" : [
             "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Live%20Photo%20Document.jpeg"
         ],
         "include_na" : true,
@@ -192,7 +237,7 @@
         "type" : "Slider",
         "name" : "Slider Question Type",
         "description" : "The user may select an answer using a slider.  The range of the slider is determined by the slider min\/max values.  The increment value is the step of the slider. Values outside the compliance min\/max range are failing. ",
-        "assets" : [
+        "assetsq" : [
           "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Numbers%20Document.numbers"
         ],
         "compliance_min" : -500,
@@ -226,7 +271,7 @@
             }
         ],
         "description" : "The media button below asks the user to select media from their photo library, camera, scan document, files app and our own built in sketch.  Adding one media item will answer the question.",
-        "assets" : [
+        "assetsq" : [
           "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Keynote%20Document.key"
         ],
         "identifier" : "1D08DB1D-FDEE-402C-A221-AEF1402ADB7E"
@@ -241,7 +286,7 @@
             }
         ],
         "description" : "The signature button below will launch the signature entry screen.  The user simply has to sign and dismiss the screen and the signature will be applied to the question.",
-        "assets" : [
+        "assetsq" : [
           "https://raw.githubusercontent.com/auditplusapp/Shortcuts/main/AllQuestionTypesSample/Assets/Text%20Document.txt"
         ],
         "identifier" : "56A078FE-9FF9-451D-BF83-2D43C5CB4FD3"
