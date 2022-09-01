@@ -15,7 +15,177 @@
     "show_log" : true,
     "send_pdf_report" : ["person1@mycompanyname.com", "person2@mycompanyname.com"],
     "identifier" : "0FFE3E08-03BA-4349-A188-AE109D85B785",
-    "server_requests" : [{
+    "serverRequests": [
+        {
+            "id": "0DD1900D-7687-45E6-967C-FF84BF625312",
+            "body": "",
+            "headers": [],
+            "parameters": [
+                {
+                    "value": "failing",
+                    "key": "test",
+                    "label": "",
+                    "identifier": "ABBB8A24-7779-4F1D-947B-FC7CABC4B1CE",
+                    "ask": false
+                }
+            ],
+            "authType": "none",
+            "contentType": "application\/json",
+            "url": "httpbin.org\/post?test=failing",
+            "password": "",
+            "token": "",
+            "requestType": "completion",
+            "username": "",
+            "responseType": "failing",
+            "protocolType": "https:\/\/",
+            "name": "Failing Request",
+            "method": "POST"
+        },
+        {
+            "id": "CD38244A-F5F7-4B1D-A53C-3AF1A75A06D6",
+            "body": "",
+            "headers": [],
+            "parameters": [],
+            "authType": "basic",
+            "contentType": "None",
+            "url": "postman-echo.com\/basic-auth",
+            "password": "password",
+            "token": "",
+            "requestType": "completion",
+            "username": "postman",
+            "responseType": "either",
+            "protocolType": "https:\/\/",
+            "name": "Basic Authentication",
+            "method": "GET"
+        },
+        {
+            "id": "B997BD5D-57B8-4451-BA3C-F3C1D082DFA9",
+            "body": "strange=boom",
+            "headers": [],
+            "parameters": [],
+            "authType": "none",
+            "contentType": "application\/x-www-form-urlencoded",
+            "url": "postman-echo.com\/post",
+            "password": "",
+            "token": "",
+            "requestType": "completion",
+            "username": "",
+            "responseType": "either",
+            "protocolType": "https:\/\/",
+            "name": "Post Form x-www Data",
+            "method": "POST"
+        },
+        {
+            "id": "20FA9FD6-A450-47D7-B6BB-7348D6C4DF4A",
+            "body": "",
+            "headers": [
+                {
+                    "value": "",
+                    "key": "key",
+                    "label": "What is the key?",
+                    "identifier": "ADC099E8-9398-46CE-83D9-E256A595705C",
+                    "ask": true
+                }
+            ],
+            "parameters": [
+                {
+                    "value": "",
+                    "key": "test",
+                    "label": "What is the test parameter?",
+                    "identifier": "6298ED6C-CC68-4BA1-A9D2-FC5DD36E7E84",
+                    "ask": true
+                }
+            ],
+            "authType": "none",
+            "contentType": "None",
+            "url": "postman-echo.com\/get?test=",
+            "password": "",
+            "token": "",
+            "requestType": "completion",
+            "username": "",
+            "responseType": "either",
+            "protocolType": "https:\/\/",
+            "name": "Basic Get Request",
+            "method": "GET"
+        },
+        {
+            "id": "C3AE0BDC-2816-4FDC-BF43-5E49A3180BA6",
+            "body": "Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium. Praesent neque quam, tincidunt nec leo eget, rutrum vehicula magna.\nMaecenas consequat elementum elit, id semper sem tristique et. Integer pulvinar enim quis consectetur interdum volutpat.",
+            "headers": [],
+            "parameters": [],
+            "authType": "none",
+            "contentType": "text\/plain",
+            "url": "postman-echo.com\/post",
+            "password": "",
+            "token": "",
+            "requestType": "completion",
+            "username": "",
+            "responseType": "either",
+            "protocolType": "https:\/\/",
+            "name": "Post Raw Data",
+            "method": "POST"
+        },
+        {
+            "id": "E9B8E1E1-7CD0-4392-9A6C-0FD0402372B1",
+            "body": "Curabitur auctor, elit nec pulvinar porttitor, ex augue condimentum enim, eget suscipit urna felis quis neque.\nSuspendisse sit amet luctus massa, nec venenatis mi. Suspendisse tincidunt massa at nibh efficitur fringilla. Nam quis congue mi. Etiam volutpat.",
+            "headers": [],
+            "parameters": [],
+            "authType": "none",
+            "contentType": "text\/plain",
+            "url": "postman-echo.com\/patch",
+            "password": "",
+            "token": "",
+            "requestType": "completion",
+            "username": "",
+            "responseType": "either",
+            "protocolType": "https:\/\/",
+            "name": "Patch Request",
+            "method": "PATCH"
+        },
+        {
+            "id": "8D7E55DE-BFFB-4C87-8F35-96AABB24471E",
+            "body": "Etiam mi lacus, cursus vitae felis et, blandit pellentesque neque. Vestibulum eget nisi a tortor commodo dignissim.\nQuisque ipsum ligula, faucibus a felis a, commodo elementum nisl. Mauris vulputate sapien et tincidunt viverra. Donec vitae velit nec metus.",
+            "headers": [],
+            "parameters": [],
+            "authType": "none",
+            "contentType": "text\/plain",
+            "url": "postman-echo.com\/put",
+            "password": "",
+            "token": "",
+            "requestType": "completion",
+            "username": "",
+            "responseType": "either",
+            "protocolType": "https:\/\/",
+            "name": "Put Request",
+            "method": "PUT"
+        },
+        {
+            "id": "B3062B52-D72E-4C53-B76E-20F61C62DF32",
+            "body": "",
+            "headers": [],
+            "parameters": [
+                {
+                    "value": "passing",
+                    "key": "test",
+                    "label": "",
+                    "identifier": "F3659C19-C1D2-4486-8A3D-6C27150F154E",
+                    "ask": false
+                }
+            ],
+            "authType": "none",
+            "contentType": "application\/json",
+            "url": "httpbin.org\/post?test=passing",
+            "password": "",
+            "token": "",
+            "requestType": "answer",
+            "username": "",
+            "includeQuestionParam": true,
+            "responseType": "passing",
+            "protocolType": "https:\/\/",
+            "name": "Passing Request",
+            "method": "POST"
+        }
+    ],
             "name" : "Completion Request",
             "method" : "POST",
             "run_for" : "COMPLETION",
