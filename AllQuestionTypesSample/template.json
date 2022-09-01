@@ -186,48 +186,6 @@
             "method": "POST"
         }
     ],
-            "name" : "Completion Request",
-            "method" : "POST",
-            "run_for" : "COMPLETION",
-            "execute_when" : "PASSING",
-            "url" : "www.example.com",
-            "body" : "This is some body text.",
-            "auth_type" : "BASIC",
-            "protocol_type" : "https://",
-            "content_type" : "text/plain",
-            "username" : "myname",
-            "password" : "qwerty",
-            "parameters" : [
-                    {
-                        "key": "auditid",
-                        "value" : "0FFE3E08-03BA-4349-A188-AE109D85B785"
-                    },
-                    {
-                        "key" : "date",
-                        "label" : "date",
-                        "ask" : true
-                    }
-            ],
-            "headers" : [
-                    {
-                        "key" : "From",
-                        "value" : "user@example.com"
-                    }
-            ],
-            "id" : "39555b3a-a400-442d-9c90-862159a5d4e9",
-        },
-        {
-            "name" : "Issue Request",
-            "method" : "POST",
-            "run_for" : "ISSUE",
-            "include_question" : true,
-            "url" : "www.example.com",
-            "body" : "{\"method\" : \"notifyIssue\"}",
-            "content_type" : "application/json",
-            "id" : "d670a894-653d-4be9-aac6-c4a8d54cf342"
-        }
-        
-    ],
     "questions" : [
     {
         "name" : "Text-Based Question Types",
